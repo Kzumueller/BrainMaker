@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Neuron
 {
-    interface INeuron<Number>
+    public interface INeuron<Number>
     {
         List<IDendrite<Number>> Dendrites { get; set; }
 
         IAxon<Number> Axon { get; set; }
 
-        ILearningStrategy LearningStrategy { get; set; }
+        ILearningStrategy<Number> LearningStrategy { get; set; }
     }
 }

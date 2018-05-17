@@ -10,5 +10,7 @@ namespace BrainMaker.Network
     public interface INetwork<Number>
     {
         List<INeuron<Number>> Neurons { get; set; }
+
+        List<Number> Run(List<Number> vector);
     }
 }

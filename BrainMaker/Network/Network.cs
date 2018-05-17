@@ -10,5 +10,7 @@ namespace BrainMaker.Network
      public abstract class Network<Number> : INetwork<Number>
     {
         public List<INeuron<Number>> Neurons { get; set; }
+
+        public abstract List<Number> Run(List<Number> vector);
     }
 }

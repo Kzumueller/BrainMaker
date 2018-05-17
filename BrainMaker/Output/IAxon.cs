@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Output
 {
-    interface IAxon<Number>
+    public interface IAxon<Number>
     {
         Number CalculateOutput();
     }
