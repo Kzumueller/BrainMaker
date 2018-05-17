@@ -15,6 +15,6 @@ namespace BrainMaker.Neuron
 
         public IAxon<Number> Axon { get; set; }
 
-        public ILearningStrategy LearningStrategy { get; set; }
+        public ILearningStrategy<Number> LearningStrategy { get; set; }
     }
 }
