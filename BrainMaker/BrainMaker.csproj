@@ -46,9 +46,13 @@
     <Compile Include="Activity\Linear\IntLinearActivity.cs" />
     <Compile Include="Brain\IBrain.cs" />
     <Compile Include="Input\Dendrite.cs" />
-    <Compile Include="Input\FloatDendrite.cs" />
+    <Compile Include="Input\Linear\FloatLinearDendrite.cs" />
     <Compile Include="Input\IDendrite.cs" />
-    <Compile Include="Input\IntDendrite.cs" />
+    <Compile Include="Input\Linear\IntLinearDendrite.cs" />
+    <Compile Include="LearningStrategy\Delta\FloatDelta.cs" />
+    <Compile Include="LearningStrategy\Delta\IntDelta.cs" />
+    <Compile Include="LearningStrategy\Hebb\FloatHebb.cs" />
+    <Compile Include="LearningStrategy\Hebb\IntHebb.cs" />
     <Compile Include="LearningStrategy\ILearningStrategy.cs" />
     <Compile Include="LearningStrategy\LearningStrategy.cs" />
     <Compile Include="Network\INetwork.cs" />

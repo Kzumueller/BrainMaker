@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrainMaker.Input
+namespace BrainMaker.Input.Linear
 {
-   public class FloatDendrite : Dendrite<double>
+   public class FloatLinearDendrite : Dendrite<double>
     {
         public override double CalculateEffective()
         {

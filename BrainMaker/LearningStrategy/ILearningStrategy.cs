@@ -13,6 +13,6 @@ namespace BrainMaker.LearningStrategy
 
         Number Proportionality { get; set; }
 
-        void AdjustWeight(Number expected);
+        void AdjustWeight(Number expected, Number actual);
     }
 }
