@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Input
 {
-    abstract class Dendrite<Number> : IDendrite<Number> where Number : struct
+     public abstract class Dendrite<Number> : IDendrite<Number> where Number : struct
     {
         public Number Input { get; set; }
 

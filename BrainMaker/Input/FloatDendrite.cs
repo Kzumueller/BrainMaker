@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Input
 {
-    class FloatDendrite : Dendrite<double>
+   public class FloatDendrite : Dendrite<double>
     {
         public override double CalculateEffective()
         {

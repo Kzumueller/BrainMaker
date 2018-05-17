@@ -7,7 +7,7 @@ using BrainMaker.Input;
 
 namespace BrainMaker.LearningStrategy
 {
-    abstract class LearningStrategy<Number> : ILearningStrategy<Number>
+    public abstract class LearningStrategy<Number> : ILearningStrategy<Number>
     {
         public IDendrite<Number> Dendrite { get; set; }
 

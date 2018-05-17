@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Brain
 {
-    interface IBrain
+    public interface IBrain
     {
     }
 }

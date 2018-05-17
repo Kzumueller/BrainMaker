@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Activity
 {
-    interface IActivity<Number>
+    public interface IActivity<Number>
     {
         IDendrite<Number> Dendrite { get; set; }
 

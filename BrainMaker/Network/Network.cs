@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Network
 {
-    abstract class Network<Number> : INetwork<Number>
+     public abstract class Network<Number> : INetwork<Number>
     {
         public List<INeuron<Number>> Neurons { get; set; }
     }

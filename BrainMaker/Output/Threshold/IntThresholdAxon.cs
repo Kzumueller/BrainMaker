@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Output.Threshold
 {
-    class IntThresholdAxon : Axon<int>
+   public class IntThresholdAxon : Axon<int>
     {
         public override int CalculateOutput()
         {

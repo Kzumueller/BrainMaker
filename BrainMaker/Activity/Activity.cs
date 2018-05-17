@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Activity
 {
-    abstract class Activity<Number> : IActivity<Number>
+     public abstract class Activity<Number> : IActivity<Number>
     {
         public IDendrite<Number> Dendrite { get; set; }
 

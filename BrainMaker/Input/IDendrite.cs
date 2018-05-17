@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Input
 {
-    interface IDendrite<Number>
+    public interface IDendrite<Number>
     {
         Number Input { get; set; }
 

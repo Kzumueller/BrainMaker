@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.LearningStrategy
 {
-    interface ILearningStrategy<Number>
+    public interface ILearningStrategy<Number>
     {
         IDendrite<Number> Dendrite { get; set; }
 

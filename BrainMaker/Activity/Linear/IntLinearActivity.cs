@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Activity.Linear
 {
-    class IntLinearActivity : Activity<int>
+   public class IntLinearActivity : Activity<int>
     {
         public override int Calculate()
         {

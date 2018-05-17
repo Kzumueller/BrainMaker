@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BrainMaker.Neuron
 {
-    class Neuron<Number> : INeuron<Number>
+   public class Neuron<Number> : INeuron<Number>
     {
         public List<IDendrite<Number>> Dendrites { get; set; }
 
