@@ -60,6 +60,7 @@
     <Compile Include="Neuron\INeuron.cs" />
     <Compile Include="Neuron\Neuron.cs" />
     <Compile Include="Output\Axon.cs" />
+    <Compile Include="Output\Fermi\FloatFermiAxon.cs" />
     <Compile Include="Output\IAxon.cs" />
     <Compile Include="Output\Threshold\FloatThresholdAxon.cs" />
     <Compile Include="Output\Threshold\IntThresholdAxon.cs" />
